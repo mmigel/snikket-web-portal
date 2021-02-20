@@ -48,8 +48,12 @@ def context() -> typing.Mapping[str, typing.Any]:
 
 
 @bp.route("/<id_>")
+async def view_old(id_: str) -> quart.Response:
+    return redirect(url_for(".view", id_=id_))
+
+
 @bp.route("/<id_>/")
-async def view(id_: str) -> str:
+async def view(id_: str) -> typing.Union[quart.Response, str]:
     try:
         invite = await client.get_public_invite_by_id(id_)
     except aiohttp.ClientResponseError as exc:
@@ -80,12 +84,18 @@ async def view(id_: str) -> str:
     )
     apple_store_url = current_app.config["APPLE_STORE_URL"]
 
-    return await render_template(
+    body = await render_template(
         "invite_view.html",
         invite=invite,
         play_store_url=play_store_url,
         apple_store_url=apple_store_url,
         invite_id=id_,
+    )
+    return quart.Response(
+        body,
+        headers={
+            "Link": "<{}> rel=\"alternate\"".format(invite.xmpp_uri),
+        }
     )
 
 
