@@ -8,272 +8,271 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-22 15:08+0100\n"
-"PO-Revision-Date: 2021-02-25 16:02+0000\n"
-"Last-Translator: misiek <migelazur@mailbox.org>\n"
-"Language-Team: Polish <https://i18n.sotecware.net/projects/snikket/web-"
-"portal/pl/>\n"
-"Language: pl\n"
+"PO-Revision-Date: 2021-03-10 19:03+0000\n"
+"Last-Translator: Daniel Holmgaard <annoncer@protonmail.com>\n"
+"Language-Team: Danish <https://i18n.sotecware.net/projects/snikket/web-"
+"portal/da/>\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: snikket_web/admin.py:59
 msgid "Delete user permanently"
-msgstr "Usuń użytkownika bezpowrotnie"
+msgstr "Slet bruger permanent"
 
 #: snikket_web/admin.py:72
 msgid "User deleted"
-msgstr "Użytkownik został usunięty"
+msgstr "Bruger slettet"
 
 #: snikket_web/admin.py:115
 msgid "Password reset link created"
-msgstr "Utworzono link resetowania hasła"
+msgstr "Link til nulstilling af adgangskode oprettet"
 
 #: snikket_web/admin.py:121
 msgid "Password reset link deleted"
-msgstr "Usunięto link resetowania hasła"
+msgstr "Link til nulstilling af adgangskode slettet"
 
 #: snikket_web/admin.py:140
 msgid "Invite to circle"
-msgstr "Zaproś do kręgu"
+msgstr "Inviter til cirkel"
 
 #: snikket_web/admin.py:146
 msgid "At least one circle must be selected"
-msgstr "Należy wybrać przynajmniej jeden krąg"
+msgstr "Mindst en cirkel skal vælges"
 
 #: snikket_web/admin.py:151
 msgid "Valid for"
-msgstr "Ważne przez"
+msgstr "Gyldig for"
 
 #: snikket_web/admin.py:153
 msgid "One hour"
-msgstr "Godzinę"
+msgstr "En time"
 
 #: snikket_web/admin.py:154
 msgid "Twelve hours"
-msgstr "Dwanaście godzin"
+msgstr "Tolv timer"
 
 #: snikket_web/admin.py:155
 msgid "One day"
-msgstr "Dzień"
+msgstr "En dag"
 
 #: snikket_web/admin.py:156
 msgid "One week"
-msgstr "Tydzień"
+msgstr "En uge"
 
 #: snikket_web/admin.py:157
 msgid "Four weeks"
-msgstr "Cztery tygodnie"
+msgstr "Fire uger"
 
 #: snikket_web/admin.py:163 snikket_web/templates/admin_edit_invite.html:17
 msgid "Invitation type"
-msgstr "Typ zaproszenia"
+msgstr "Invitationstype"
 
 #: snikket_web/admin.py:165 snikket_web/templates/library.j2:116
 msgid "Individual"
-msgstr "Indywidualne"
+msgstr "Individuel"
 
 #: snikket_web/admin.py:166 snikket_web/templates/library.j2:114
 msgid "Group"
-msgstr "Grupowe"
+msgstr "Gruppe"
 
 #: snikket_web/admin.py:172
 msgid "New invitation link"
-msgstr "Nowy link z zaproszeniem"
+msgstr "Ny invitationslink"
 
 #: snikket_web/admin.py:234
 msgid "Revoke"
-msgstr "Unieważnij"
+msgstr "Tilbagekald"
 
 #: snikket_web/admin.py:258
 msgid "Invitation created"
-msgstr "Utworzono zaproszenie"
+msgstr "Invitation oprettet"
 
 #: snikket_web/admin.py:274
 msgid "No such invitation exists"
-msgstr "Takie zaproszenie nie istnieje"
+msgstr "Denne invitation findes ikke"
 
 #: snikket_web/admin.py:289
 msgid "Invitation revoked"
-msgstr "Unieważniono zaproszenie"
+msgstr "Invitation tilbagekaldt"
 
 #: snikket_web/admin.py:306 snikket_web/admin.py:354
 msgid "Name"
-msgstr "Nazwa"
+msgstr "Navn"
 
 #: snikket_web/admin.py:311 snikket_web/templates/admin_circles.html:47
 msgid "Create circle"
-msgstr "Utwórz krąg"
+msgstr "Opret cirkel"
 
 #: snikket_web/admin.py:341
 msgid "Circle created"
-msgstr "Utworzono krąg"
+msgstr "Cirkel oprettet"
 
 #: snikket_web/admin.py:359
 msgid "Select user"
-msgstr "Wybierz użytkownika"
+msgstr "Vælg bruger"
 
 #: snikket_web/admin.py:364
 msgid "Update circle"
-msgstr "Zaktualizuj ustawienia kręgu"
+msgstr "Opdater cirkel"
 
 #: snikket_web/admin.py:368
 msgid "Delete circle permanently"
-msgstr "Usuń krąg bezpowrotnie"
+msgstr "Slet cirkel permanent"
 
 #: snikket_web/admin.py:374
 msgid "Add user"
-msgstr "Dodaj użytkownika"
+msgstr "Tilføj bruger"
 
 #: snikket_web/admin.py:390
 msgid "No such circle exists"
-msgstr "Taki krąg nie istnieje"
+msgstr "Denne cirkel findes ikke"
 
 #: snikket_web/admin.py:427
 msgid "Circle data updated"
-msgstr "Zaktualizowano dane kręgu"
+msgstr "Cirkel data opdateret"
 
 #: snikket_web/admin.py:433
 msgid "Circle deleted"
-msgstr "Krąg został usunięty"
+msgstr "Cirkel slettet"
 
 #: snikket_web/admin.py:444
 msgid "User added to circle"
-msgstr "Dodano użytkownika do kręgu"
+msgstr "Bruger tilføjet til cirkel"
 
 #: snikket_web/admin.py:453
 msgid "User removed from circle"
-msgstr "Usunięto użytkownika z kręgu"
+msgstr "Bruger fjernet fra cirkel"
 
 #: snikket_web/infra.py:41
 msgid "Main"
-msgstr "Główny"
+msgstr "Hoved"
 
 #: snikket_web/invite.py:106
 msgid "Username"
-msgstr "Nazwa użytkownika"
+msgstr "Brugernavn"
 
 #: snikket_web/invite.py:110 snikket_web/invite.py:177 snikket_web/main.py:41
 msgid "Password"
-msgstr "Hasło"
+msgstr "Adgangskode"
 
 #: snikket_web/invite.py:114 snikket_web/invite.py:181
 msgid "Confirm password"
-msgstr "Potwierdź hasło"
+msgstr "Bekræft adgangskode"
 
 #: snikket_web/invite.py:118 snikket_web/invite.py:185
 #, fuzzy
 #| msgid "The passwords must match"
 msgid "The passwords must match."
-msgstr "Hasła muszą się zgadzać"
+msgstr "Adgangskoderne skal matche"
 
 #: snikket_web/invite.py:123
 msgid "Create account"
-msgstr "Utwórz konto"
+msgstr "Opret konto"
 
 #: snikket_web/invite.py:150
 #, fuzzy
 #| msgid "That username is already taken"
 msgid "That username is already taken."
-msgstr "Ta nazwa użytkownika jest już zajęta"
+msgstr "Det brugernavn er allerede taget"
 
 #: snikket_web/invite.py:154 snikket_web/invite.py:218
 #, fuzzy
 #| msgid "Registration was declined for unknown reasons"
 msgid "Registration was declined for unknown reasons."
-msgstr "Z nieznanych przyczyn rejestracja została odrzucona"
+msgstr "Registrering blev afvist af ukendte årsager"
 
 #: snikket_web/invite.py:158
 #, fuzzy
 #| msgid "The username is not valid"
 msgid "The username is not valid."
-msgstr "Ta nazwa użytkownika jest nieprawidłowa"
+msgstr "Brugernavnet er ikke gyldigt"
 
 #: snikket_web/invite.py:190 snikket_web/templates/user_home.html:32
 #: snikket_web/templates/user_passwd.html:29
 msgid "Change password"
-msgstr "Zmień hasło"
+msgstr "Ændr adgangskode"
 
 #: snikket_web/main.py:36
 msgid "Address"
-msgstr "Adres"
+msgstr "Adresse"
 
 #: snikket_web/main.py:46
 msgid "Sign in"
-msgstr "Zaloguj się"
+msgstr "Log ind"
 
 #: snikket_web/main.py:55
 msgid "Invalid username or password."
-msgstr "Nieprawidłowa nazwa użytkownika lub hasło."
+msgstr "Ugyldigt brugernavn eller adgangskode."
 
 #: snikket_web/main.py:83
 msgid "Login successful!"
-msgstr "Zalogowano się pomyślnie!"
+msgstr "Login lykkedes!"
 
 #: snikket_web/user.py:27
 msgid "Current password"
-msgstr "Obecne hasło"
+msgstr "Nuværende adgangskode"
 
 #: snikket_web/user.py:32
 msgid "New password"
-msgstr "Nowe hasło"
+msgstr "Ny adgangskode"
 
 #: snikket_web/user.py:37
 msgid "Confirm new password"
-msgstr "Potwierdź nowe hasło"
+msgstr "Bekræft ny adgangskode"
 
 #: snikket_web/user.py:41
 #, fuzzy
 #| msgid "The new passwords must match"
 msgid "The new passwords must match."
-msgstr "Nowe hasła muszą się zgadzać"
+msgstr "Den nye adgangskode skal matche"
 
 #: snikket_web/user.py:48
 msgid "Sign out"
-msgstr "Wyloguj się"
+msgstr "Log ud"
 
 #: snikket_web/user.py:53
 msgid "Nobody"
-msgstr "Nikt"
+msgstr "Ingen"
 
 #: snikket_web/user.py:54
 msgid "Friends only"
-msgstr "Tylko znajomi"
+msgstr "Kun venner"
 
 #: snikket_web/user.py:55
 msgid "Everyone"
-msgstr "Wszyscy"
+msgstr "Alle"
 
 #: snikket_web/templates/admin_delete_user.html:12
 #: snikket_web/templates/admin_users.html:11 snikket_web/user.py:61
 msgid "Display name"
-msgstr "Nazwa wyświetlana"
+msgstr "Kaldenavn"
 
 #: snikket_web/user.py:65
 msgid "Avatar"
-msgstr "Awatar"
+msgstr "Avatar"
 
 #: snikket_web/user.py:69
 msgid "Profile visibility"
-msgstr "Widoczność profilu"
+msgstr "Profilsynlighed"
 
 #: snikket_web/user.py:74
 msgid "Update profile"
-msgstr "Zaktualizuj profil"
+msgstr "Opdater profil"
 
 #: snikket_web/user.py:99
 #, fuzzy
 #| msgid "Incorrect password"
 msgid "Incorrect password."
-msgstr "Nieprawidłowe hasło"
+msgstr "Forkert adgangskode"
 
 #: snikket_web/user.py:103
 msgid "Password changed"
-msgstr "Hasło zostało zmienione"
+msgstr "Adgangskode ændret"
 
 #: snikket_web/user.py:111
 msgid ""
@@ -283,28 +282,28 @@ msgstr ""
 
 #: snikket_web/user.py:159
 msgid "Profile updated"
-msgstr "Zaktualizowano profil"
+msgstr "Profil opdateret"
 
 #: snikket_web/templates/unauth.html:18 snikket_web/user.py:167
 msgid "Error"
-msgstr "Błąd"
+msgstr "Fejl"
 
 #: snikket_web/templates/_footer.html:4
 #, python-format
 msgid "A <a href=\"%(about_url)s\">Snikket</a> service"
-msgstr "Serwer <a href=\"%(about_url)s\">Snikket</a>"
+msgstr "A <a href=\"%(about_url)s\">Snikket</a> tjeneste"
 
 #: snikket_web/templates/_footer.html:6
 msgid ""
 "“Snikket” and the parrot logo are trademarks of Snikket Community Interest "
 "Company."
 msgstr ""
-"\"Snikket\" oraz logo papugi są znakami firmowymi Snikket Community Interest "
-"Company."
+"“Snikket” og papegøje-logoet er varemærker tilhørende Snikket Community "
+"Interest Company."
 
 #: snikket_web/templates/about.html:4 snikket_web/templates/about.html:9
 msgid "About Snikket"
-msgstr "O Snikket"
+msgstr "Om Snikket"
 
 #: snikket_web/templates/about.html:10
 #, python-format
@@ -312,21 +311,21 @@ msgid ""
 "To learn more about Snikket, visit the <a href=\"%(snikket_url)s\">Snikket "
 "website</a>."
 msgstr ""
-"By dowiedzieć się więcej o Snikket, odwiedź <a href=\"%(snikket_url)s"
-"\">stronę projektu</a>."
+"For at lære mere om Snikket, besøg <a href=\"%(snikket_url)s\">Snikket "
+"hjemmesiden</a>."
 
 #: snikket_web/templates/about.html:11
 msgid "About this Service"
-msgstr "O tej usłudze"
+msgstr "Om denne tjeneste"
 
 #: snikket_web/templates/about.html:12
 #, python-format
 msgid "This is the Snikket service <em>%(site_name)s</em>."
-msgstr "To serwer Snikket: <em>%(site_name)s</em>."
+msgstr "Dette er Snikket tjenesten <em>%(site_name)s</em>."
 
 #: snikket_web/templates/about.html:13
 msgid "Licenses"
-msgstr "Licencje"
+msgstr "Licenser"
 
 #: snikket_web/templates/about.html:14
 #, python-format
@@ -336,10 +335,9 @@ msgid ""
 "a>. The full terms of the license can be reviewed using the aforementioned "
 "link."
 msgstr ""
-"Oprogramowanie tego serwisu jest objęte licencją na warunkach <a href="
-"\"%(agpl_url)s\">Affero GNU General Public License, w wersji 3.0 lub "
-"późniejszej</a>. Pełne warunki licencji można sprawdzić korzystając z "
-"wcześniej podanego odnośnika."
+"Webportal-softwaren er licenseret under vilkårene i <a href=\"%(agpl_url)s"
+"\">Affero GNU General Public License, version 3.0 eller nyere</a>. De fulde "
+"vilkår for licensen kan gennemgås ved hjælp af ovennævnte link."
 
 #: snikket_web/templates/about.html:15
 #, python-format
@@ -347,8 +345,8 @@ msgid ""
 "The source code of the web portal can be downloaded and viewed in <a href="
 "\"%(source_url)s\">its GitHub repository</a>."
 msgstr ""
-"Kod źródłowy portalu może zostać pobrany lub przejrzany w <a href="
-"\"%(source_url)s\">jego repozytorium na GitHub</a>."
+"Webportalens kildekode kan downloades og vises i <a href=\"%(source_url)s"
+"\">dets GitHub repository</a>."
 
 #: snikket_web/templates/about.html:16
 #, python-format
@@ -357,13 +355,13 @@ msgid ""
 "Material Icons</a>, made available by Google under the terms of the <a href="
 "\"%(apache20_url)s\">Apache 2.0 License</a>."
 msgstr ""
-"Ikony wykorzystane w portalu to <a href=\"%(source_url)s\">Google’s Material "
-"Icons</a>, udostępnione przez Google na warunkach licencji <a href="
-"\"%(apache20_url)s\">Apache 2.0</a>."
+"Ikonerne, der bruges i webportalen, er <a href=\"%(source_url)s\">Google’s "
+"Material Icons</a>, stillet til rådighed af Google under vilkårene for <a "
+"href=\"%(apache20_url)s\">Apache 2.0 License</a>."
 
 #: snikket_web/templates/about.html:17
 msgid "Trademarks"
-msgstr "Znaki firmowe"
+msgstr "Varemærker"
 
 #: snikket_web/templates/about.html:18
 #, python-format
@@ -372,34 +370,34 @@ msgid ""
 "Company. For more information about the trademarks, visit the <a href="
 "\"%(trademarks_url)s\">Snikket Trademarks information page</a>."
 msgstr ""
-"\"Snikket\" oraz logo papugi są znakami firmowymi Snikket Community Interest "
-"Company. Więcej informacji o oznaczeniach znajdziesz na <a href="
-"\"%(trademarks_url)s\">stronie o znakach firmowych Snikket</a>."
+"“Snikket” og papegøje-logoet er varemærker tilhørende Snikket Community "
+"Interest Company. For mere information om varemærkerne, besøg <a href="
+"\"%(trademarks_url)s\">Snikket varemærkeinformationssiden</a>."
 
 #: snikket_web/templates/about.html:19
 msgid "Software Versions"
-msgstr "Wersje oprogramowania"
+msgstr "Software versioner"
 
 #: snikket_web/templates/about.html:29
 msgid "Back to the main page"
-msgstr "Wróć do strony głównej"
+msgstr "Tilbage til hovedsiden"
 
 #: snikket_web/templates/admin_app.html:5
 msgid "Admin area"
-msgstr "Panel administracyjny"
+msgstr "Administrator område"
 
 #: snikket_web/templates/admin_circles.html:4
 #: snikket_web/templates/admin_home.html:23
 msgid "Manage circles"
-msgstr "Zarządzaj kręgami"
+msgstr "Håndter cirkler"
 
 #: snikket_web/templates/admin_circles.html:5
 msgid ""
 "<em>Circles</em> aim to help people who are in the same social circle find "
 "each other on your service."
 msgstr ""
-"Celem <em> Kręgów </em> jest pomoc osobom z tego samego kręgu znajomych w "
-"odnalezieniu się na twoim serwerze."
+"<em>Cirkler</em> har til formål at hjælpe folk der er i samme social kreds, "
+"med at finde hinanden i din på din tjeneste."
 
 #: snikket_web/templates/admin_circles.html:6
 msgid ""
@@ -407,116 +405,116 @@ msgid ""
 "In addition, each circle has a group chat where the circle members are "
 "included."
 msgstr ""
-"Użytkownicy, którzy są w tym samym kręgu, będą widzieli się wzajemnie na "
-"swoich listach kontaktów. Każdy krąg posiada również czat grupowy dla "
-"członków danego kręgu."
+"Brugere der er i samme cirkel kan se hinanden i deres kontaktliste. "
+"Derudover har hver cirkel en gruppechat, hvor cirkelmedlemmerne er "
+"inkluderet."
 
 #: snikket_web/templates/admin_circles.html:13
 msgid "Circle name"
-msgstr "Nazwa kręgu"
+msgstr "Cirkelnavn"
 
 #: snikket_web/templates/admin_circles.html:14
 msgid "Members"
-msgstr "Członkowie"
+msgstr "Medlemmer"
 
 #: snikket_web/templates/admin_circles.html:15
 #: snikket_web/templates/admin_invites.html:24
 #: snikket_web/templates/admin_users.html:12
 msgid "Actions"
-msgstr "Akcje"
+msgstr "Handlinger"
 
 #: snikket_web/templates/admin_circles.html:25
 #, python-format
 msgid "Create invitation to circle %(circle_name)s"
-msgstr "Utwórz zaproszenie do kręgu %(circle_name)s"
+msgstr "Opret invitation til cirkel %(circle_name)s"
 
 #: snikket_web/templates/admin_circles.html:28
 #, python-format
 msgid "Manage members of %(circle_name)s"
-msgstr "Zarządzaj członkami %(circle_name)s"
+msgstr "Håndter medlemmer af %(circle_name)s"
 
 #: snikket_web/templates/admin_circles.html:31
 #: snikket_web/templates/admin_edit_circle.html:8
 #, python-format
 msgid "Edit circle %(circle_name)s"
-msgstr "Edytuj krąg %(circle_name)s"
+msgstr "Rediger cirkel %(circle_name)s"
 
 #: snikket_web/templates/admin_circles.html:40
 msgid "No circles"
-msgstr "Brak kręgów"
+msgstr "Ingen cirkler"
 
 #: snikket_web/templates/admin_circles.html:41
 msgid ""
 "Currently, there are no circles on this service. Use the form below to "
 "create one."
 msgstr ""
-"Obecnie nie ma kręgów na tym serwerze. Użyj poniższego formularza, by "
-"stworzyć nowy."
+"På nuværende tidspunkt er der ingen cirkler på denne tjeneste. Brug "
+"formularen herunder for at oprette en."
 
 #: snikket_web/templates/admin_circles.html:44
 msgid "New circle"
-msgstr "Nowy krąg"
+msgstr "Ny cirkel"
 
 #: snikket_web/templates/admin_create_invite.html:3
 msgid "Create invitation"
-msgstr "Utwórz zaproszenie"
+msgstr "Opret invitation"
 
 #: snikket_web/templates/admin_create_invite_form.html:5
 msgid "Create new invitation"
-msgstr "Utwórz nowe zaproszenie"
+msgstr "Opret ny invitation"
 
 #: snikket_web/templates/admin_create_invite_form.html:6
 msgid ""
 "Create a new invitation link to invite more users to your Snikket service by "
 "clicking the button below."
 msgstr ""
-"Utwórz nowy link zaproszenia korzystając z poniższego przycisku. Pozwoli on "
-"zaprosić nowych użytkowników na twój serwer Snikket."
+"Opret et nyt link til en invitation for at invitere flere brugere til din "
+"Snikket tjeneste ved at klikke på knappen herunder."
 
 #: snikket_web/templates/admin_debug_user.html:8
 #, python-format
 msgid "Debug information for %(user_name)s"
-msgstr "Informacje debugowania dla %(user_name)s"
+msgstr "Fejlretningsoplysninger for %(user_name)s"
 
 #: snikket_web/templates/admin_debug_user.html:11
 #: snikket_web/templates/user_passwd.html:23
 msgid "Warning"
-msgstr "Ostrzeżenie"
+msgstr "Advarsel"
 
 #: snikket_web/templates/admin_debug_user.html:12
 msgid "The below dump may contain sensitive information."
-msgstr "Poniższy zrzut może zawierać poufne informacje."
+msgstr "Nedenstående dump kan indeholde følsomme oplysninger."
 
 #: snikket_web/templates/admin_debug_user.html:15
 msgid "Raw debug dump"
-msgstr "Surowy zrzut debugowania"
+msgstr "Rå fejlretningsdump"
 
 #: snikket_web/templates/admin_debug_user.html:17
 msgid "Copy complete output"
-msgstr "Skopiuj całą zawartość"
+msgstr "Kopier komplet output"
 
 #: snikket_web/templates/admin_delete_user.html:4
 #: snikket_web/templates/admin_users.html:22
 #, python-format
 msgid "Delete user %(user_name)s"
-msgstr "Usuń użytkownika %(user_name)s"
+msgstr "Slet bruger %(user_name)s"
 
 #: snikket_web/templates/admin_delete_user.html:6
 msgid "Delete user"
-msgstr "Usuń użytkownika"
+msgstr "Slet bruger"
 
 #: snikket_web/templates/admin_delete_user.html:8
 msgid "Are you sure you want to delete the following user?"
-msgstr "Czy na pewno chcesz usunąć tego użytkownika?"
+msgstr "Er du sikker på, at du vil slette følgende bruger?"
 
 #: snikket_web/templates/admin_delete_user.html:10
 #: snikket_web/templates/admin_users.html:10
 msgid "Login name"
-msgstr "Login"
+msgstr "Login-navn"
 
 #: snikket_web/templates/admin_delete_user.html:15
 msgid "Danger"
-msgstr "Uwaga"
+msgstr "Fare"
 
 #: snikket_web/templates/admin_delete_user.html:16
 msgid ""
@@ -524,9 +522,8 @@ msgid ""
 "immediately upon pushing the below button. <strong>There is no way back!</"
 "strong>"
 msgstr ""
-"Użytkownik oraz jego dane zostaną nieodwracalnie, trwale i natychmiastowo "
-"usunięte po naciśnięciu poniższego przycisku. <strong>Nie będzie można tego "
-"cofnąć!</strong>"
+"Brugeren og deres data slettes uigenkaldeligt, permanent og straks efter "
+"tryk på nedenstående knap. <strong>Der er ingen vej tilbage!</strong>"
 
 #: snikket_web/templates/admin_delete_user.html:19
 #: snikket_web/templates/admin_reset_user_password.html:25
@@ -534,37 +531,35 @@ msgstr ""
 #: snikket_web/templates/user_passwd.html:27
 #: snikket_web/templates/user_profile.html:32
 msgid "Back"
-msgstr "Wstecz"
+msgstr "Tilbage"
 
 #: snikket_web/templates/admin_edit_circle.html:14
 msgid "This is your main circle"
-msgstr "To twój główny krąg"
+msgstr "Dette er din hovedcirkel"
 
 #: snikket_web/templates/admin_edit_circle.html:15
 msgid "This circle is managed automatically and cannot be removed or renamed."
-msgstr ""
-"Ten krąg jest zarządzany automatycznie, dlatego nie można go usunąć lub "
-"zmienić jego nazwy."
+msgstr "Denne cirkel håndteres automatisk og kan ikke fjernes eller omdøbes."
 
 #: snikket_web/templates/admin_edit_circle.html:17
 #: snikket_web/templates/admin_edit_circle.html:33
 msgid "Group chat address"
-msgstr "Adres czatu grupowego"
+msgstr "Gruppechat adresse"
 
 #: snikket_web/templates/admin_edit_circle.html:20
 #: snikket_web/templates/admin_edit_circle.html:36
 #: snikket_web/templates/invite_success.html:15
 #: snikket_web/templates/user_home.html:21
 msgid "Copy address"
-msgstr "Skopiuj adres"
+msgstr "Kopier adresse"
 
 #: snikket_web/templates/admin_edit_circle.html:26
 msgid "Circle information"
-msgstr "Informacje o kręgu"
+msgstr "Cirkel information"
 
 #: snikket_web/templates/admin_edit_circle.html:39
 msgid "This circle has no group chat associated."
-msgstr "Ten krąg nie jest powiązany z żadnym czatem grupowym."
+msgstr "Denne cirkel er ikke tilknyttet nogen gruppechat."
 
 #: snikket_web/templates/admin_edit_circle.html:44
 msgid "Return to circle list"
@@ -572,49 +567,49 @@ msgstr ""
 
 #: snikket_web/templates/admin_edit_circle.html:48
 msgid "Delete circle"
-msgstr "Usuń krąg"
+msgstr "Slet cirkel"
 
 #: snikket_web/templates/admin_edit_circle.html:49
 msgid "Deleting a circle does not delete any users in the circle."
-msgstr "Usunięcie kręgu nie usunie z serwera jego użytkowników."
+msgstr "Sletning af en cirkel vil ikke slette brugere i cirklen."
 
 #: snikket_web/templates/admin_edit_circle.html:55
 msgid "Circle members"
-msgstr "Członkowie kręgu"
+msgstr "Cirkel medlemmer"
 
 #: snikket_web/templates/admin_edit_circle.html:70
 #, python-format
 msgid "Remove user %(username)s from circle"
-msgstr "Usuń z kręgu użytkownika %(username)s"
+msgstr "Fjern bruger %(username)s fra cirkel"
 
 #: snikket_web/templates/admin_edit_circle.html:78
 msgid "This circle currently has no members."
-msgstr "Ten krąg nie ma obecnie członków."
+msgstr "Den nuværende cirkel har ingen medlemmer."
 
 #: snikket_web/templates/admin_edit_circle.html:80
 msgid "Invite more members"
-msgstr "Zaproś więcej użytkowników"
+msgstr "Inviter flere medlemmer"
 
 #: snikket_web/templates/admin_edit_circle.html:83
 msgid "Add existing user"
-msgstr "Dodaj istniejącego użytkownika"
+msgstr "Tilføj eksisterende bruger"
 
 #: snikket_web/templates/admin_edit_circle.html:94
 msgid "All users added"
-msgstr "Wszyscy użytkownicy dodani"
+msgstr "Alle brugere tilføjet"
 
 #: snikket_web/templates/admin_edit_circle.html:95
 msgid "All users on this service are already in this circle."
-msgstr "Wszyscy użytkownicy tego serwera są obecnie w tym kręgu."
+msgstr "Alle brugerne af denne tjeneste er allerede i denne cirkel."
 
 #: snikket_web/templates/admin_edit_invite.html:8
 msgid "View invitation"
-msgstr "Szczegóły zaproszenia"
+msgstr "Vis invitation"
 
 #: snikket_web/templates/admin_edit_invite.html:13
 #: snikket_web/templates/admin_reset_user_password.html:15
 msgid "Valid until"
-msgstr "Wygasa"
+msgstr "Gyldig indtil"
 
 #: snikket_web/templates/admin_edit_invite.html:15
 #: snikket_web/templates/admin_reset_user_password.html:17
@@ -624,25 +619,24 @@ msgstr "Link"
 #: snikket_web/templates/admin_edit_invite.html:22
 #: snikket_web/templates/admin_home.html:19
 msgid "Circles"
-msgstr "Kręgi"
+msgstr "Cirkler"
 
 #: snikket_web/templates/admin_edit_invite.html:23
 msgid ""
 "Users joining via this invitation will be added to the following circles:"
 msgstr ""
-"Użytkownicy dołączający za pomocą tego zaproszenia zostaną dodani do "
-"poniższych kręgów:"
+"Brugere, der deltager via denne invitation, føjes til følgende cirkler:"
 
 #: snikket_web/templates/admin_edit_invite.html:29
 #: snikket_web/templates/admin_invites.html:23
 msgid "Circle"
-msgstr "Krąg"
+msgstr "Cirkel"
 
 #: snikket_web/templates/admin_edit_invite.html:35
 msgid "The user will not be added to any circle and will have no contacts."
 msgstr ""
-"Użytkownik nie zostanie dodany do żadnego kręgu oraz nie będzie miał "
-"kontaktów."
+"Brugeren vil ikke blive tilknyttet nogen cirkel og vil ikke have nogen "
+"kontakter."
 
 #: snikket_web/templates/admin_edit_invite.html:40
 msgid "Contact"
@@ -651,162 +645,161 @@ msgstr "Kontakt"
 #: snikket_web/templates/admin_edit_invite.html:41
 #, python-format
 msgid "The user will get added as contact of %(peer_jid)s."
-msgstr "Użytkownik zostanie dodany jako kontakt %(peer_jid)s."
+msgstr "Denne bruger vil blive tilføjet som kontakt hos %(peer_jid)s."
 
 #: snikket_web/templates/admin_edit_invite.html:43
 msgid "Created"
-msgstr "Utworzono"
+msgstr "Oprettet"
 
 #: snikket_web/templates/admin_edit_invite.html:49
 #, fuzzy
 #| msgid "New invitation link"
 msgid "Return to invitation list"
-msgstr "Nowy link z zaproszeniem"
+msgstr "Ny invitationslink"
 
 #: snikket_web/templates/admin_home.html:4
 msgid "Welcome to the admin panel!"
-msgstr "Witaj w panelu administracyjnym!"
+msgstr "Velkommen til administrator panelet!"
 
 #: snikket_web/templates/admin_home.html:5
 #, python-format
 msgid "At your service, %(user_name)s."
-msgstr "Do usług, %(user_name)s."
+msgstr "Til din tjeneste, %(user_name)s."
 
 #: snikket_web/templates/admin_home.html:9
 msgid "Users"
-msgstr "Użytkownicy"
+msgstr "Brugere"
 
 #: snikket_web/templates/admin_home.html:11
 msgid "Create password reset links or delete users."
-msgstr "Twórz linki do resetowania haseł lub usuwaj użytkowników."
+msgstr "Opret links til nulstilling af adgangskode, eller slet brugere."
 
 #: snikket_web/templates/admin_home.html:15
 #: snikket_web/templates/admin_users.html:4
 msgid "Manage users"
-msgstr "Zarządzaj użytkownikami"
+msgstr "Håndter brugere"
 
 #: snikket_web/templates/admin_home.html:21
 msgid "Create and manage social circles represented on your service."
-msgstr "Twórz i zarządzaj kręgami społecznościowymi na twoim serwerze."
+msgstr ""
+"Opret og administrer sociale cirkler, der er repræsenteret på din tjeneste."
 
 #: snikket_web/templates/admin_home.html:27
 msgid "Invitations"
-msgstr "Zaproszenia"
+msgstr "Invitationer"
 
 #: snikket_web/templates/admin_home.html:29
 msgid "Create, revoke or copy invitations."
-msgstr "Utwórz, unieważnij lub kopiuj zaproszenia."
+msgstr "Opret, tilbagekald eller kopier invitationer."
 
 #: snikket_web/templates/admin_home.html:31
 #: snikket_web/templates/admin_invites.html:8
 msgid "Manage invitations"
-msgstr "Zarządzaj zaproszeniami"
+msgstr "Håndter invitationer"
 
 #: snikket_web/templates/admin_home.html:36
 msgid "Go back to your user's web portal page."
-msgstr "Wróć do swojej strony użytkownika."
+msgstr "Gå tilbage din brugers webportal side."
 
 #: snikket_web/templates/admin_home.html:38
 msgid "Exit admin panel"
-msgstr "Wyjdź z panelu administracyjnego"
+msgstr "Afslut administrator panel"
 
 #: snikket_web/templates/admin_invites.html:10
 msgid "Pending invitations"
-msgstr "Oczekujące zaproszenia"
+msgstr "Afventende invitationer"
 
 #: snikket_web/templates/admin_invites.html:21
 msgid "Expires"
-msgstr "Wygasa"
+msgstr "Udløber"
 
 #: snikket_web/templates/admin_invites.html:22
 msgid "Type"
-msgstr "Typ"
+msgstr "Type"
 
 #: snikket_web/templates/admin_invites.html:43
 msgid "Show invite details"
-msgstr "Pokaż szczegóły zaproszenia"
+msgstr "Vis invitationsdetajler"
 
 #: snikket_web/templates/admin_invites.html:46
 msgid "Copy invite link to clipboard"
-msgstr "Skopiuj link zaproszenia do schowka"
+msgstr "Kopier invitationslink til udklipsholder"
 
 #: snikket_web/templates/admin_invites.html:49
 msgid "Delete invitation"
-msgstr "Usuń zaproszenie"
+msgstr "Slet invitation"
 
 #: snikket_web/templates/admin_invites.html:57
 msgid "Currently, there are no pending invitations."
-msgstr "Brak oczekujących zaproszeń."
+msgstr "Der er i øjeblikket ingen afventende invitationer."
 
 #: snikket_web/templates/admin_reset_user_password.html:8
 msgid "Password reset"
-msgstr "Resetowanie hasła"
+msgstr "Nulstil adgangskode"
 
 #: snikket_web/templates/admin_reset_user_password.html:12
 #, python-format
 msgid "Password reset link for %(user_name)s"
-msgstr "Link resetowania hasła dla %(user_name)s"
+msgstr "Nulstil adgangskode link for %(user_name)s"
 
 #: snikket_web/templates/admin_reset_user_password.html:13
 msgid ""
 "The following link will allow the user to reset their password on their "
 "device, once."
 msgstr ""
-"Poniższy link pozwoli użytkownikowi na jednorazowe zresetowanie hasła na "
-"urządzeniu."
+"Følgende link giver brugeren mulighed for at nulstille deres adgangskode på "
+"deres enhed en gang."
 
 #: snikket_web/templates/admin_reset_user_password.html:22
 msgid "Destroy link"
-msgstr "Zniszcz link"
+msgstr "Ødelæg link"
 
 #: snikket_web/templates/admin_users.html:25
 #, python-format
 msgid "Show debug information for %(user_name)s"
-msgstr "Pokaż informacje debugowania dla %(user_name)s"
+msgstr "Vis fejlretningsoplysninger for %(user_name)s"
 
 #: snikket_web/templates/admin_users.html:28
 #, python-format
 msgid "Create password reset link for %(user_name)s"
-msgstr "Utwórz link resetowania hasła dla %(user_name)s"
+msgstr "Opret link til nulstilling af adgangskode til %(user_name)s"
 
 #: snikket_web/templates/app.html:4
 msgid "Snikket Web Portal"
-msgstr "Portal użytkownika Snikket"
+msgstr "Snikket Webportal"
 
 #: snikket_web/templates/app.html:8
 msgid "Log out"
-msgstr "Wyloguj się"
+msgstr "Log ud"
 
 #: snikket_web/templates/backend_error.html:3
 #: snikket_web/templates/exception.html:3
 #: snikket_web/templates/internal_error.html:3
 msgid "Internal error"
-msgstr "Błąd wewnętrzny"
+msgstr "Intern fejl"
 
 #: snikket_web/templates/backend_error.html:4
 msgid "The web portal was not able to communicate with the backend."
-msgstr "Portal internetowy nie był w stanie połączyć się z serwerem."
+msgstr "Webportalen var ikke i stand til at kommunikere med backend."
 
 #: snikket_web/templates/backend_error.html:5
 #: snikket_web/templates/internal_error.html:5
 msgid "Please try again later and/or inform your Snikket service admin."
-msgstr ""
-"Spróbuj ponownie później i/lub poinformuj administratora twojego serwera "
-"Snikket."
+msgstr "Prøv igen senere og/eller informer din Snikket-tjeneste-administrator."
 
 #: snikket_web/templates/generic_http_error.html:9
 msgid "Go back to the main page"
-msgstr "Wróć do strony głównej"
+msgstr "Gå tilbage til hovedsiden"
 
 #: snikket_web/templates/internal_error.html:4
 msgid "The web portal encountered an internal error."
-msgstr "Portal internetowy napotkał błąd wewnętrzny."
+msgstr "Webportalen stødte på en intern fejl."
 
 #: snikket_web/templates/invite_invalid.html:5
 #: snikket_web/templates/invite_view.html:13
 #, python-format
 msgid "Invite to %(site_name)s"
-msgstr "Zaproszenie na %(site_name)s"
+msgstr "Inviter til %(site_name)s"
 
 #: snikket_web/templates/invite_invalid.html:6
 #: snikket_web/templates/invite_register.html:10
@@ -814,36 +807,34 @@ msgstr "Zaproszenie na %(site_name)s"
 #: snikket_web/templates/invite_view.html:14
 #, python-format
 msgid "Powered by <img src=\"%(logo_url)s\" alt=\"Snikket\">"
-msgstr "Obsługiwane przez <img alt=\"Snikket\" src=\"%(logo_url)s\">"
+msgstr "Drevet af<img alt=\"Snikket\" src=\"%(logo_url)s\">"
 
 #: snikket_web/templates/invite_invalid.html:8
 msgid "Invite expired"
-msgstr "Zaproszenie wygasło"
+msgstr "Invitation udløbet"
 
 #: snikket_web/templates/invite_invalid.html:9
 msgid "Sorry, it looks like this invitation link has expired!"
-msgstr "Przepraszamy, wygląda na to, że ten link z zaproszeniem wygasł!"
+msgstr "Beklager, dette invitationslink er udløbet!"
 
 #: snikket_web/templates/invite_register.html:5
 #, python-format
 msgid "Register on %(site_name)s | Snikket"
-msgstr "Zarejestruj się na %(site_name)s | Snikket"
+msgstr "Registrer dig på %(site_name)s | Snikket"
 
 #: snikket_web/templates/invite_register.html:9
 #, python-format
 msgid "Register on %(site_name)s"
-msgstr "Zarejestruj się na %(site_name)s"
+msgstr "Registrer på %(site_name)s"
 
 #: snikket_web/templates/invite_register.html:11
 #, python-format
 msgid "%(site_name)s is using Snikket - a secure, privacy-friendly chat app."
-msgstr ""
-"%(site_name)s korzysta ze Snikket - bezpiecznej i przyjaznej dla prywatności "
-"aplikacji do rozmów."
+msgstr "%(site_name)s bruger Snikket - en sikker og privatlivsvenlig chat-app."
 
 #: snikket_web/templates/invite_register.html:12
 msgid "Create an account"
-msgstr "Utwórz konto"
+msgstr "Opret en konto"
 
 #: snikket_web/templates/invite_register.html:13
 msgid ""
@@ -852,15 +843,15 @@ msgid ""
 "we recommend that you continue the account creation process inside the app "
 "by clicking on the button below:"
 msgstr ""
-"Utworzenie konta pozwoli na komunikację z innymi osobami za pomocą aplikacji "
-"Snikket lub kompatybilnego oprogramowania. Jeśli zainstalowałeś już "
-"aplikację, zalecamy kontynuowanie procesu tworzenia konta wewnątrz niej, "
-"zaprowadzi cię tam poniższy przycisk:"
+"Oprettelse af en konto giver dig mulighed for at kommunikere med andre "
+"mennesker ved hjælp af Snikket-appen eller kompatibel software. Hvis du "
+"allerede har appen installeret, anbefaler vi, at du fortsætter oprettelsen "
+"af kontoen i appen ved at klikke på knappen nedenfor:"
 
 #: snikket_web/templates/invite_register.html:14
 #: snikket_web/templates/invite_view.html:39
 msgid "App already installed?"
-msgstr "Aplikacja jest już zainstalowana?"
+msgstr "App allerede installeret?"
 
 #: snikket_web/templates/invite_register.html:16
 #: snikket_web/templates/invite_reset_view.html:21
@@ -868,78 +859,77 @@ msgstr "Aplikacja jest już zainstalowana?"
 #: snikket_web/templates/invite_view.html:106
 #: snikket_web/templates/invite_view.html:134
 msgid "Open the app"
-msgstr "Otwórz aplikację"
+msgstr "Åben appen"
 
 #: snikket_web/templates/invite_register.html:18
 #: snikket_web/templates/invite_view.html:43
 msgid "This button works only if you have the app installed already!"
-msgstr ""
-"Ten przycisk zadziała wyłącznie, jeśli masz już zainstalowaną aplikację!"
+msgstr "Denne knap virker kun hvis du allerede har installeret appen!"
 
 #: snikket_web/templates/invite_register.html:19
 msgid "Create an account online"
-msgstr "Utwórz konto online"
+msgstr "Opret en konto online"
 
 #: snikket_web/templates/invite_register.html:20
 msgid ""
 "If you plan to use a legacy XMPP client, you can register an account online "
 "and enter your credentials into any XMPP-compatible software."
 msgstr ""
-"Jeśli planujesz używać starszego klienta XMPP, możesz zarejestrować konto "
-"online i wprowadzić dane logowania w dowolnym oprogramowaniu zgodnym z XMPP."
+"Hvis du planlægger at bruge en ældre XMPP-klient, kan du registrere en konto "
+"online og indtaste dine legitimationsoplysninger i enhver XMPP-kompatibel "
+"software."
 
 #: snikket_web/templates/invite_register.html:27
 msgid ""
 "Choose a username, this will become the first part of your new chat address."
 msgstr ""
-"Wybierz nazwę użytkownika, będzie to pierwsza część twojego nowego adresu do "
-"czatowania."
+"Vælge et brugernavn, som vil blive den første del af din nye chat adresse."
 
 #: snikket_web/templates/invite_register.html:32
 msgid "Enter a secure password that you do not use anywhere else."
-msgstr "Wprowadź bezpieczne hasło, którego nie używasz w innym miejscu."
+msgstr "Indtast en sikker adgangskode, som du ikke bruger andre steder."
 
 #: snikket_web/templates/invite_reset.html:9
 #: snikket_web/templates/invite_reset_view.html:9
 msgid "Reset your password | Snikket"
-msgstr "Zresetuj swoje hasło | Snikket"
+msgstr "Nulstil din adgangskode | Snikket"
 
 #: snikket_web/templates/invite_reset.html:15
 msgid "Reset your password online"
-msgstr "Zresetuj swoje hasło online"
+msgstr "Nulstil din adgangskode online"
 
 #: snikket_web/templates/invite_reset.html:16
 msgid ""
 "To reset your password online, fill out the fields below and confirm using "
 "the button."
 msgstr ""
-"Aby zresetować swoje hasło online, wypełnij poniższe pola i potwierdź za "
-"pomocą przycisku."
+"For at nulstille din adgangskode online skal du udfylde nedenstående felter "
+"og bekræfte ved hjælp af knappen."
 
 #: snikket_web/templates/invite_reset_success.html:5
 msgid "Password reset successful | Snikket"
-msgstr "Zresetowanie hasła powiodło się | Snikket"
+msgstr "Nulstilling af adgangskode udført | Snikket"
 
 #: snikket_web/templates/invite_reset_success.html:8
 msgid "Password reset successful"
-msgstr "Zresetowanie hasła powiodło się"
+msgstr "Nulstilling af adgangskode udført"
 
 #: snikket_web/templates/invite_reset_success.html:10
 msgid "Your password has been changed"
-msgstr "Twoje hasło zostało zmienione"
+msgstr "Din adgangskode er blevet ændret"
 
 #: snikket_web/templates/invite_reset_success.html:11
 msgid "You can now log in using your new password."
-msgstr "Możesz się zalogować z wykorzystaniem twojego nowego hasła."
+msgstr "Du kan nu logge ind med din nye adgangskode."
 
 #: snikket_web/templates/invite_reset_success.html:12
 #: snikket_web/templates/invite_success.html:18
 msgid "You can now safely close this page."
-msgstr "Możesz teraz bezpiecznie zamknąć tę stronę."
+msgstr "Du kan sikkert lukke denne side."
 
 #: snikket_web/templates/invite_reset_view.html:14
 msgid "Reset your password"
-msgstr "Zresetuj swoje hasło"
+msgstr "Nustil din adgangskode"
 
 #: snikket_web/templates/invite_reset_view.html:15
 #, python-format
@@ -947,26 +937,26 @@ msgid ""
 "This page allows you to reset the password of your account, <strong>"
 "%(account_jid)s</strong>, once."
 msgstr ""
-"Ta strona pozwoli ci na jednorazowe zresetowanie hasła do twojego konta: "
-"<strong>%(account_jid)s</strong>."
+"Denne side giver dig mulighed for at nulstille adgangskoden til din konto, "
+"<strong>%(account_jid)s</strong>, en gang."
 
 #: snikket_web/templates/invite_reset_view.html:17
 msgid "Using the app"
-msgstr "Używając aplikacji"
+msgstr "Bruger appen"
 
 #: snikket_web/templates/invite_reset_view.html:18
 msgid "To reset your password using the Snikket App, tap the button below."
 msgstr ""
-"Aby zresetować swoje hasło za pomocą aplikacji Snikket, wciśnij poniższy "
-"przycisk."
+"For at nulstille din adgangskode ved hjælp af Snikket-appen skal du trykke "
+"på knappen nedenfor."
 
 #: snikket_web/templates/invite_reset_view.html:25
 msgid ""
 "Alternatively, you can scan the below code with the Snikket App using the "
 "Scan button at the top."
 msgstr ""
-"Możesz również zeskanować poniższy kod w aplikacji Snikket, korzystając z "
-"przycisku Skanowania, który znajduje się u góry."
+"Alternativt kan du skanne nedenstående kode med Snikket-appen ved hjælp af "
+"Skan-knappen øverst."
 
 #: snikket_web/templates/invite_reset_view.html:26
 #: snikket_web/templates/invite_view.html:77
@@ -975,19 +965,18 @@ msgid ""
 "within the highlighted square on your screen, and wait until the app "
 "recognises it."
 msgstr ""
-"Twój aparat włączy się. Skieruj go na kwadratowy kod poniżej, aż znajdzie "
-"się on w podświetlonym kwadracie na twoim ekranie. Poczekaj, aż aplikacja go "
-"odczyta."
+"Dit kamera tændes. Peg den på firkantkoden nedenfor, indtil den er inden for "
+"den fremhævede firkant på din skærm, og vent, indtil appen genkender den."
 
 #: snikket_web/templates/invite_reset_view.html:27
 msgid "You will then be prompted to enter a new password for your account."
 msgstr ""
-"Zostaniesz wtedy poproszony o wprowadzenie nowego hasła dla twojego konta."
+"Du bliver derefter bedt om at indtaste en ny adgangskode til din konto."
 
 #: snikket_web/templates/invite_reset_view.html:29
 #: snikket_web/templates/invite_view.html:45
 msgid "Alternatives"
-msgstr "Inne możliwości"
+msgstr "Alternativer"
 
 #: snikket_web/templates/invite_reset_view.html:30
 #, python-format
@@ -995,42 +984,41 @@ msgid ""
 "You can also <a href=\"%(reset_url)s\">reset your password online</a> if the "
 "above button or scanning the QR code does not work for you."
 msgstr ""
-"Możesz również <a href=\"%(reset_url)s\">zresetować swoje hasło online</a>, "
-"jeśli powyższy przycisk lub skanowanie kodu QR nie zadziała."
+"Du kan også <a href=\"%(reset_url)s\">nulstille din adgangskode online</a>, "
+"hvis ovenstående knap eller skanning af QR-koden ikke virker for dig."
 
 #: snikket_web/templates/invite_success.html:5
 #, python-format
 msgid "Successfully registered on %(site_name)s | Snikket"
-msgstr "Pomyślnie zarejestrowano na %(site_name)s | Snikket"
+msgstr "Registreret korrekt på %(site_name)s | Snikket"
 
 #: snikket_web/templates/invite_success.html:10
 #, python-format
 msgid "Successfully registered on %(site_name)s"
-msgstr "Pomyślnie zarejestrowano na %(site_name)s"
+msgstr "Registreret korrekt på %(site_name)s"
 
 #: snikket_web/templates/invite_success.html:12
 #, python-format
 msgid ""
 "Congratulations! You successfully registered on %(site_name)s as %(jid)s."
-msgstr ""
-"Gratulacje! Pomyślnie zarejestrowałeś się na %(site_name)s jako %(jid)s."
+msgstr "Tillykke! Du registrerede dig med succes %(site_name)s som %(jid)s."
 
 #: snikket_web/templates/invite_success.html:13
 msgid "Your address"
-msgstr "Twój adres"
+msgstr "Din adresse"
 
 #: snikket_web/templates/invite_success.html:17
 msgid ""
 "You can now set up your legacy XMPP client with the above address and the "
 "password you chose during registration."
 msgstr ""
-"Możesz teraz skonfigurować swojego starszego klienta XMPP za pomocą "
-"powyższego adresu i hasła, które podałeś podczas rejestracji."
+"Du kan nu konfigurere din ældre XMPP-klient med ovenstående adresse og den "
+"adgangskode, du valgte under registreringen."
 
 #: snikket_web/templates/invite_view.html:6
 #, python-format
 msgid "Invite to %(site_name)s | Snikket"
-msgstr "Zaproszenie na %(site_name)s | Snikket"
+msgstr "Inviter til %(site_name)s | Snikket"
 
 #: snikket_web/templates/invite_view.html:16
 #, python-format
@@ -1038,9 +1026,8 @@ msgid ""
 "You have been invited to chat with %(inviter_name)s using Snikket, a secure, "
 "privacy-friendly chat app on %(site_name)s."
 msgstr ""
-"Zostałeś zaproszony do czatu z %(inviter_name)s za pomocą Snikket - "
-"bezpiecznej i przyjaznej dla prywatności aplikacji do rozmów na "
-"%(site_name)s."
+"Du er blevet inviteret til at chatte med %(inviter_name)s ved hjælp af "
+"Snikket, en sikker, privatlivsvenlig chat-app på %(site_name)s."
 
 #: snikket_web/templates/invite_view.html:18
 #, python-format
@@ -1048,17 +1035,16 @@ msgid ""
 "You have been invited to chat on %(site_name)s using Snikket, a secure, "
 "privacy-friendly chat app."
 msgstr ""
-"Zostałeś zaproszony do czatowania na %(site_name)s za pomocą Snikket - "
-"bezpiecznej i przyjaznej dla prywatności aplikacji do rozmów."
+"Du er blevet inviteret til at chatte på %(site_name)s ved hjælp af Snikket, "
+"en sikker, privatlivsvenlig chat-app."
 
 #: snikket_web/templates/invite_view.html:20
 msgid "Get started"
-msgstr "Rozpocznij"
+msgstr "Kom i gang"
 
 #: snikket_web/templates/invite_view.html:22
 msgid "Install the Snikket App on your Android or iOS device."
-msgstr ""
-"Zainstaluj aplikację Snikket na swoim urządzeniu z systemem Android lub iOS."
+msgstr "Installer Snikket appen på din Android eller iOS enhed."
 
 #: snikket_web/templates/invite_view.html:24
 #, python-format
@@ -1066,18 +1052,17 @@ msgid ""
 "Install the Snikket App on your Android device (<a href=\"%(ios_info_url)s\" "
 "rel=\"noopener noreferrer\" target=\"_blank\">iOS coming soon!</a>)."
 msgstr ""
-"Zainstaluj aplikację Snikket na swoim urządzeniu z Androidem (<a href="
-"\"%(ios_info_url)s\" rel=\"noopener noreferrer\" target=\"_blank\">iOS już "
-"niedługo!</a>)."
+"Installer Snikket-appen på din Android-enhed (<a href=\"%(ios_info_url)s\" "
+"rel=\"noopener noreferrer\" target=\"_blank\">iOS kommer snart!</a>)."
 
 #: snikket_web/templates/invite_view.html:28
 msgid "Get it on Google Play"
-msgstr "Pobierz w Google Play"
+msgstr "Få den i Google Play"
 
 #: snikket_web/templates/invite_view.html:30
 #: snikket_web/templates/invite_view.html:102
 msgid "Download on the App Store"
-msgstr "Pobierz w App Store"
+msgstr "Download i App Store"
 
 #: snikket_web/templates/invite_view.html:32
 msgid "Get it on F-Droid"
@@ -1085,15 +1070,15 @@ msgstr ""
 
 #: snikket_web/templates/invite_view.html:35
 msgid "Send to mobile device"
-msgstr "Wyślij na urządzenie mobilne"
+msgstr "Send til mobilenhed"
 
 #: snikket_web/templates/invite_view.html:38
 msgid ""
 "After installation the app should automatically open and prompt you to "
 "create an account. If not, simply click the button below."
 msgstr ""
-"Po instalacji aplikacja powinna uruchomić się automatycznie i poprosić o "
-"utworzenie konta. Jeśli nie, wciśnij poniższy przycisk."
+"Efter installationen skal appen automatisk åbne og bede dig om at oprette en "
+"konto. Hvis ikke, skal du blot klikke på knappen nedenfor."
 
 #: snikket_web/templates/invite_view.html:46
 #, python-format
@@ -1102,14 +1087,13 @@ msgid ""
 "above does not work with your app, you may need to <a href=\"%(register_url)s"
 "\">register an account manually</a>."
 msgstr ""
-"Możesz połączyć się z serwerem Snikket, korzystając z dowolnego "
-"oprogramowania kompatybilnego z XMPP. Jeśli powyższy przycisk nie działa z "
-"twoją aplikacją, konieczne może być <a href=\"%(register_url)s\">ręczne "
-"zarejestrowanie konta</a>."
+"Du kan oprette forbindelse til Snikket ved hjælp af enhver XMPP-kompatibel "
+"software. Hvis knappen ovenfor ikke fungerer sammen med din app, skal du "
+"muligvis <a href=\"%(register_url)s\">registrer en konto manuelt</a>."
 
 #: snikket_web/templates/invite_view.html:52
 msgid "Scan invite code"
-msgstr "Zeskanuj kod zaproszenia"
+msgstr "Skan invitationskode"
 
 #: snikket_web/templates/invite_view.html:55
 #: snikket_web/templates/invite_view.html:84
@@ -1118,39 +1102,39 @@ msgstr "Zeskanuj kod zaproszenia"
 #: snikket_web/templates/invite_view.html:124
 #: snikket_web/templates/invite_view.html:140
 msgid "Close"
-msgstr "Zamknij"
+msgstr "Luk"
 
 #: snikket_web/templates/invite_view.html:58
 msgid ""
 "You can transfer this invite to your mobile device by scanning a code with "
 "your camera. You can use either a QR scanner app or the Snikket app itself."
 msgstr ""
-"Możesz przesłać to zaproszenie na swoje urządzenie mobilne, skanując "
-"poniższy kod aparatem. Możesz również skorzystać ze skanera kodów QR lub "
-"samej aplikacji Snikket."
+"Du kan overføre denne invitation til din mobilenhed ved at skanne en kode "
+"med dit kamera. Du kan bruge enten en QR-skanner-app eller selve Snikket-"
+"appen."
 
 #: snikket_web/templates/invite_view.html:63
 msgid "Using a QR code scanner"
-msgstr "Używając skanera kodów QR"
+msgstr "Bruger en QR kode skanner"
 
 #: snikket_web/templates/invite_view.html:65
 msgid "Using the Snikket app"
-msgstr "Używając aplikacji Snikket"
+msgstr "Bruger Snikket appen"
 
 #: snikket_web/templates/invite_view.html:70
 msgid ""
 "Use a <em>QR code</em> scanner on your mobile device to scan the code below:"
 msgstr ""
-"Użyj skanera <em>kodów QR</em> na swoim urządzeniu mobilnym, by zeskanować "
-"poniższy kod:"
+"Brug en <em>QR code</em> skanner på din mobilenhed for at skanne "
+"nedenstående kode:"
 
 #: snikket_web/templates/invite_view.html:76
 msgid ""
 "Install the Snikket app on your mobile device, open it, and tap the 'Scan' "
 "button at the top."
 msgstr ""
-"Zainstaluj aplikację Snikket na swoim urządzeniu mobilnym, otwórz ją, "
-"następnie wciśnij przycisk \"Skanuj\" u góry."
+"Installer Snikket-appen på din mobilenhed, åbn den, og tryk på knappen "
+"'Skan' øverst."
 
 #: snikket_web/templates/invite_view.html:93
 msgid "Install on iOS"
@@ -1190,38 +1174,37 @@ msgstr ""
 
 #: snikket_web/templates/library.j2:18
 msgid "Copy link"
-msgstr "Skopiuj link"
+msgstr "Kopier link"
 
 #: snikket_web/templates/library.j2:81
 msgid "Invalid input"
-msgstr "Dane nieprawidłowe"
+msgstr "Ugyldig input"
 
 #: snikket_web/templates/library.j2:108
 msgid "deleted"
-msgstr "usunięty"
+msgstr "Slettet"
 
 #: snikket_web/templates/library.j2:122
 msgid "Can be used multiple times to create accounts on this Snikket service."
 msgstr ""
-"Może być wykorzystywane wielokrotnie, by utworzyć konto na tym serwerze "
-"Snikket."
+"Kan blive brugt flere gang til at oprette konti på denne Snikket tjeneste."
 
 #: snikket_web/templates/library.j2:124
 msgid "Can be used once to create an account on this Snikket service."
 msgstr ""
-"Może być wykorzystane jeden raz, by utworzyć konto na tym serwerze Snikket."
+"Kan blive brugt en gang til at oprette en konto på denne Snikket tjeneste."
 
 #: snikket_web/templates/login.html:5
 msgid "Snikket Login"
-msgstr "Snikket - Logowanie"
+msgstr "Snikket Login"
 
 #: snikket_web/templates/login.html:14
 msgid "Enter your Snikket address and password to manage your account."
-msgstr "Wprowadź swój adres Snikket oraz hasło, aby zarządzać kontem."
+msgstr "Indtast din Snikket adresse og adgangskode for håndter din konto."
 
 #: snikket_web/templates/login.html:19
 msgid "Incorrect address"
-msgstr "Adres nieprawidłowy"
+msgstr "Ukorrekt adresse"
 
 #: snikket_web/templates/login.html:20
 #, python-format
@@ -1229,62 +1212,61 @@ msgid ""
 "This Snikket service only hosts addresses ending in <em>@%(snikket_domain)s</"
 "em>. Your password was not sent."
 msgstr ""
-"Ten serwer Snikket obsługuje jedynie adresy kończące się na <em>@"
-"%(snikket_domain)s</em>. Twoje hasło nie zostało wysłane."
+"Denne Snikket tjeneste er kun værts for adresser der ender på <em>@"
+"%(snikket_domain)s</em>. Din adgangskode blev ikke sent."
 
 #: snikket_web/templates/unauth.html:16
 msgid "Operation successful"
-msgstr "Operacja zakończona sukcesem"
+msgstr "Operation lykkes"
 
 #: snikket_web/templates/user_home.html:9
 msgid "Welcome!"
-msgstr "Witaj!"
+msgstr "Velkommen!"
 
 #: snikket_web/templates/user_home.html:10
 #, python-format
 msgid "Welcome home, %(user_name)s."
-msgstr "Witaj w domu, %(user_name)s."
+msgstr "Velkommen hjem, %(user_name)s."
 
 #: snikket_web/templates/user_home.html:14
 msgid "Your account"
-msgstr "Twoje konto"
+msgstr "Din konto"
 
 #: snikket_web/templates/user_home.html:20
 msgid "Your XMPP address"
-msgstr "Twój adres XMPP"
+msgstr "Din XMPP adresse"
 
 #: snikket_web/templates/user_home.html:31
 msgid "Edit profile"
-msgstr "Edytuj profil"
+msgstr "Rediger profil"
 
 #: snikket_web/templates/user_home.html:38
 msgid "Your Snikket"
-msgstr "Twój Snikket"
+msgstr "Din Snikket"
 
 #: snikket_web/templates/user_home.html:40
 msgid "Manage users, invitations and circles of your Snikket service."
-msgstr ""
-"Zarządzaj użytkownikami, zaproszeniami oraz kręgami na tym serwerze Snikket."
+msgstr "Håndter brugere, invitationer og cirkler på din Snikket tjeneste."
 
 #: snikket_web/templates/user_home.html:42
 msgid "Admin panel"
-msgstr "Panel administracyjny"
+msgstr "Administrator panel"
 
 #: snikket_web/templates/user_logout.html:5
 msgid "Sign out of the Snikket Web Portal"
-msgstr "Wyloguj się z Portalu Użytkownika Snikket"
+msgstr "Log ud af Snikket Webportalen"
 
 #: snikket_web/templates/user_logout.html:6
 msgid ""
 "Click below to log yourself out of the web portal. This does not affect any "
 "other connected devices."
 msgstr ""
-"Kliknij poniżej, aby wylogować się z portalu. Nie wpłynie to na pozostałe "
-"podłączone urządzenia."
+"Klik herunder for at logge dig selv ud af webportalen. Dette på virkeringen "
+"af de forbundne enheder."
 
 #: snikket_web/templates/user_passwd.html:5
 msgid "Change your password"
-msgstr "Zmień swoje hasło"
+msgstr "Ændr din adgangskode"
 
 #: snikket_web/templates/user_passwd.html:6
 msgid ""
@@ -1292,19 +1274,21 @@ msgid ""
 "the new one. To reduce the chance of typos, we ask for your new password "
 "twice."
 msgstr ""
-"Aby zmienić swoje hasło, musisz podać również dotychczasowe. O podanie "
-"nowego hasła prosimy podwójnie, by zminimalizować możliwość pomyłki."
+"For at ændre din adgangskode, skal du først angive den nuværende adgangskode "
+"samt den nye. For at reducere risikoen for tastefejl spørger vi efter den "
+"nye adgangskode to gange."
 
 #: snikket_web/templates/user_passwd.html:24
 msgid ""
 "After changing your password, you will have to enter the new password on all "
 "of your devices."
 msgstr ""
-"Po zmianie hasła na nowe, musisz je wprowadzić na każdym swoim urządzeniu."
+"Efter du har ændret din adgangskode, skal du indtaste din nye adgangskode på "
+"alle dine enheder."
 
 #: snikket_web/templates/user_profile.html:4
 msgid "Update your profile"
-msgstr "Zaktualizuj swój profil"
+msgstr "Opdater din profil"
 
 #: snikket_web/templates/user_profile.html:6
 msgid "Profile"
@@ -1312,105 +1296,15 @@ msgstr "Profil"
 
 #: snikket_web/templates/user_profile.html:23
 msgid "Visibility"
-msgstr "Widoczność"
+msgstr "Synlighed"
 
 #: snikket_web/templates/user_profile.html:24
 msgid ""
 "This section allows you to control who can see your profile information, "
 "like avatar and nickname."
 msgstr ""
-"Ta sekcja pozwoli ci na zarządzenie widocznością informacji o twoim profilu "
-"przez innych, jak awatar lub pseudonim."
+"Denne sektion tillader dig at kontrollere, hvem der kan se din profil "
+"informationer, så som avatar og kaldenavn."
 
 #~ msgid "Login failed"
-#~ msgstr "Logowanie nie powiodło się"
-
-#~ msgid "Not on mobile?"
-#~ msgstr "Nie korzystasz obecnie ze smartfona?"
-
-#~ msgid "Edit user %(user_name)s"
-#~ msgstr "Edytuj użytkownika %(user_name)s"
-
-#~ msgid "User information"
-#~ msgstr "Informacje o użytkowniku"
-
-#~ msgid ""
-#~ "If the user has forgotten their password, use the below button to create "
-#~ "a password reset link. The password reset link can be used once to change "
-#~ "the password of the account. Transmit the link to the user via a secure "
-#~ "channel."
-#~ msgstr ""
-#~ "Jeśli użytkownik zapomni swojego hasła, za pomocą poniższego przycisku "
-#~ "wygenerujesz dla niego link do zresetowania hasła. Link może być "
-#~ "wykorzystany jednorazowo do jego zmiany. Prześlij go do użytkownika za "
-#~ "pomocą bezpiecznej formy kontaktu."
-
-#~ msgid "<label for=\"link-field\">Link</label>"
-#~ msgstr "<label for=\"link-field\">Link</label>"
-
-#~ msgid "This circle cannot be modified"
-#~ msgstr "Ten krąg nie może być modyfikowany"
-
-#~ msgid "No users left"
-#~ msgstr "Brak użytkowników do dodania"
-
-#~ msgid ""
-#~ "This invitation link can be used arbitrarily often, until it expires, is "
-#~ "revoked or a service-wide user limit is reached."
-#~ msgstr ""
-#~ "Ten link z zaproszeniem może być wykorzystywany do momentu wygaśnięcia, "
-#~ "unieważnienia lub osiągnięcia limitu użytkowników serwera."
-
-#~ msgid "This invitation link can only be used once and is then depleted."
-#~ msgstr "Ten link z zaproszeniem jest jednorazowy, wygasa po użyciu."
-
-#~ msgid "Modify administrative user information or delete users."
-#~ msgstr "Zmień informacje o użytkowniku lub usuń użytkowników."
-
-#~ msgid "Back to the main view"
-#~ msgstr "Powrót do strony głównej"
-
-#~ msgid ""
-#~ "Change display name, set avatar and configure visibility of your personal "
-#~ "data to others."
-#~ msgstr ""
-#~ "Zmień wyświetlaną nazwę, ustaw awatar oraz skonfiguruj widoczność swoich "
-#~ "danych dla innych."
-
-#~ msgid "Admin dashboard"
-#~ msgstr "Panel administracyjny"
-
-#~ msgid "Exit the Snikket Web Portal, without logging out your other devices."
-#~ msgstr ""
-#~ "Wyjdź z Portalu Użytkownika Snikket bez wylogowywania się z innych "
-#~ "urządzeń."
-
-#~ msgid "Invite a group of people"
-#~ msgstr "Zaproś grupę osób"
-
-#~ msgid "Reusability"
-#~ msgstr "Możliwość wielokrotnego użycia"
-
-#~ msgid "Reusable"
-#~ msgstr "Wielokrotnego użytku"
-
-#~ msgid "Yes"
-#~ msgstr "Tak"
-
-#~ msgid "No"
-#~ msgstr "Nie"
-
-#~ msgid "Email address"
-#~ msgstr "Adres e-mail"
-
-#~ msgid "Phone number"
-#~ msgstr "Numer telefonu"
-
-#~ msgid "Apply"
-#~ msgstr "Zapisz"
-
-#~ msgid "Copied to clipboard"
-#~ msgstr "Skopiowano do schowka"
-
-#~ msgid "Copy operation failed"
-#~ msgstr "Kopiowanie nie powiodło się"
+#~ msgstr "Log ind fejlede"

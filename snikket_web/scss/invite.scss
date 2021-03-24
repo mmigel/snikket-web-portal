@@ -54,6 +54,8 @@ div.install-buttons {
 	ul {
 		display: flex;
 		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
 		list-style-type: none;
 		margin: $w-l1 0;
 		padding: 0;
@@ -71,6 +73,10 @@ img.apple {
 }
 
 img.play {
+	height: $w-l3;
+}
+
+img.fdroid {
 	height: $w-l3;
 }
 

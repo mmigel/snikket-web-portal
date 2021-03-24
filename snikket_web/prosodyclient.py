@@ -332,15 +332,18 @@ class ProsodyClient:
                 )
             )
 
+    def _store_token_in_session(self, token_info: TokenInfo) -> None:
+        http_session[self.SESSION_TOKEN] = token_info.token
+        http_session[self.SESSION_CACHED_SCOPE] = " ".join(token_info.scopes)
+
     async def login(self, jid: str, password: str) -> bool:
         async with self._plain_session as session:
             token_info = await self._oauth2_bearer_token(
                 session, jid, password,
             )
 
-        http_session[self.SESSION_TOKEN] = token_info.token
+        self._store_token_in_session(token_info)
         http_session[self.SESSION_ADDRESS] = jid
-        http_session[self.SESSION_CACHED_SCOPE] = " ".join(token_info.scopes)
         return True
 
     @property
@@ -445,6 +448,13 @@ class ProsodyClient:
                                 headers=final_headers,
                                 data=serialised) as resp:
             if resp.status != 200:
+                self.logger.debug(
+                    "IQ HTTP response (in-reply-to id=%s) with non-OK status "
+                    "%s: %s",
+                    id_,
+                    resp.status,
+                    resp.reason,
+                )
                 abort(resp.status)
             reply_payload = await resp.read()
             self.logger.debug(
@@ -492,6 +502,29 @@ class ProsodyClient:
 
         async with session.post(self._rest_endpoint, data=req) as resp:
             return resp.status == 200
+
+    @autosession
+    async def get_server_version(self, session: aiohttp.ClientSession) -> str:
+        _, domain, _ = split_jid(self.session_address)
+        req = {
+            "kind": "iq",
+            "type": "get",
+            "version": {},
+            "to": domain,
+        }
+
+        async with session.post(self._rest_endpoint, data=req) as resp:
+            if resp.status != 200:
+                return "unknwn"
+            try:
+                return (await resp.json())["version"]["version"]
+            except Exception as exc:
+                self.logger.debug(
+                    "failed to parse prosody version from response"
+                    " (%s: %s)",
+                    type(exc), exc,
+                )
+                return "unknown"
 
     @autosession
     async def get_user_nickname(
@@ -767,7 +800,7 @@ class ProsodyClient:
         # got there, replacing the current session token on the way.
 
         async with self._plain_session as session:
-            token = await self._oauth2_bearer_token(
+            token_info = await self._oauth2_bearer_token(
                 session,
                 self.session_address,
                 current_password,
@@ -779,14 +812,14 @@ class ProsodyClient:
                     new_password
                 ),
                 headers={
-                    "Authorization": "Bearer {}".format(token),
+                    "Authorization": "Bearer {}".format(token_info.token),
                 },
                 sensitive=True,
             )
             # TODO: error handling
             # TODO: obtain a new token using the new password to allow the
             # server to expire/revoke all tokens on password change.
-            http_session[self.SESSION_TOKEN] = token
+            self._store_token_in_session(token_info)
 
     def _raise_error_from_response(
             self,

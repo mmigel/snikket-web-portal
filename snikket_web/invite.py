@@ -16,10 +16,9 @@ from quart import (
 
 import wtforms
 
-import flask_wtf
 from flask_babel import lazy_gettext as _l
 
-from .infra import client, selected_locale
+from .infra import client, selected_locale, BaseForm
 
 
 bp = Blueprint("invite", __name__)
@@ -53,13 +52,15 @@ async def view_old(id_: str) -> quart.Response:
 
 
 @bp.route("/<id_>/")
-async def view(id_: str) -> typing.Union[quart.Response, str]:
+async def view(id_: str) -> typing.Union[quart.Response,
+                                         typing.Tuple[str, int],
+                                         str]:
     try:
         invite = await client.get_public_invite_by_id(id_)
     except aiohttp.ClientResponseError as exc:
         if exc.status == 404:
             # invite expired
-            return await render_template("invite_invalid.html")
+            return await render_template("invite_invalid.html"), 404
         raise
 
     if invite.reset_localpart is not None:
@@ -89,6 +90,7 @@ async def view(id_: str) -> typing.Union[quart.Response, str]:
         invite=invite,
         play_store_url=play_store_url,
         apple_store_url=apple_store_url,
+        f_droid_url="market://details?id=org.snikket.android",
         invite_id=id_,
     )
     return quart.Response(
@@ -99,7 +101,7 @@ async def view(id_: str) -> typing.Union[quart.Response, str]:
     )
 
 
-class RegisterForm(flask_wtf.FlaskForm):  # type:ignore
+class RegisterForm(BaseForm):
     localpart = wtforms.StringField(
         _l("Username"),
     )
@@ -113,7 +115,7 @@ class RegisterForm(flask_wtf.FlaskForm):  # type:ignore
         validators=[wtforms.validators.InputRequired(),
                     wtforms.validators.EqualTo(
                         "password",
-                        _l("The passwords must match")
+                        _l("The passwords must match.")
                     )]
     )
 
@@ -145,15 +147,15 @@ async def register(id_: str) -> typing.Union[str, quart.Response]:
         except aiohttp.ClientResponseError as exc:
             if exc.status == 409:
                 form.localpart.errors.append(
-                    _l("That username is already taken")
+                    _l("That username is already taken.")
                 )
             elif exc.status == 403:
                 form.localpart.errors.append(
-                    _l("Registration was declined for unknown reasons")
+                    _l("Registration was declined for unknown reasons.")
                 )
             elif exc.status == 400:
                 form.localpart.errors.append(
-                    _l("The username is not valid")
+                    _l("The username is not valid.")
                 )
             elif exc.status == 404:
                 return redirect(url_for(".view", id_=id_))
@@ -170,7 +172,7 @@ async def register(id_: str) -> typing.Union[str, quart.Response]:
     )
 
 
-class ResetForm(flask_wtf.FlaskForm):  # type:ignore
+class ResetForm(BaseForm):
     password = wtforms.PasswordField(
         _l("Password"),
     )
@@ -180,7 +182,7 @@ class ResetForm(flask_wtf.FlaskForm):  # type:ignore
         validators=[wtforms.validators.InputRequired(),
                     wtforms.validators.EqualTo(
                         "password",
-                        _l("The passwords must match")
+                        _l("The passwords must match.")
                     )]
     )
 
@@ -213,7 +215,7 @@ async def reset(id_: str) -> typing.Union[str, quart.Response]:
         except aiohttp.ClientResponseError as exc:
             if exc.status == 403:
                 form.localpart.errors.append(
-                    _l("Registration was declined for unknown reasons")
+                    _l("Registration was declined for unknown reasons.")
                 )
             elif exc.status == 404:
                 return redirect(url_for(".view", id_=id_))

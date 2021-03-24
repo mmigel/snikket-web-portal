@@ -22,17 +22,16 @@ import babel
 import wtforms
 
 import flask_wtf
-
 from flask_babel import lazy_gettext as _l, _
 
 from . import xmpputil, _version
-from .infra import client
+from .infra import client, BaseForm
 
 
 bp = quart.Blueprint("main", __name__)
 
 
-class LoginForm(flask_wtf.FlaskForm):  # type:ignore
+class LoginForm(BaseForm):
     address = wtforms.TextField(
         _l("Address"),
         validators=[wtforms.validators.InputRequired()],
@@ -101,6 +100,10 @@ async def about() -> str:
         extra_versions["babel"] = babel.__version__
         extra_versions["wtforms"] = wtforms.__version__
         extra_versions["flask-wtf"] = flask_wtf.__version__
+        try:
+            extra_versions["Prosody"] = await client.get_server_version()
+        except quart.exceptions.Unauthorized:
+            extra_versions["Prosody"] = "unknown"
 
     return await render_template(
         "about.html",
@@ -159,3 +162,8 @@ async def avatar(from_: str, code: str) -> quart.Response:
 
     response.set_data(data)
     return response
+
+
+@bp.route("/_health")
+async def health() -> Response:
+    return Response("STATUS OK", content_type="text/plain")
